@@ -3,7 +3,7 @@ const Search = () => {
     <div className="search">
       <form>
         <div className="field">
-          <input type="search" name="search" required />
+          <input type="search" name="search" placeholder="Estoy Buscando" required />
         </div>
         <div className="append">
           <button type="submit">
